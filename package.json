@@ -1,0 +1,21 @@
+{
+  "name": "file-hide-toggle",
+  "displayName": "File Hide Toggle",
+  "description": "Select files to hide or unhide in the Explorer.",
+  "version": "1.0.0",
+  "publisher": "MOISTByte",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "fileHideToggle.toggle",
+        "title": "Files: Toggle Hidden Files"
+      }
+    ]
+  }
+}
